@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+
+.page {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    background-color: #2A2C2F;
+    -webkit-font-smoothing: antialiased;
+    /* Chrome, Safari */
+    -moz-osx-font-smoothing: grayscale;
+    /* Firefox */
+}
+
+.header {
+    padding-top: 34px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 984px;
+    min-width: 288px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 425px) {
+    .header {
+        padding-top: 20px;
+    }
+}
+
+.header__lang-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    text-align: right;
+}
+
+.header__lang-link:first-of-type {
+    text-decoration: underline;
+    margin-right: 18px;
+}
+
+@media (max-width: 425px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+        /* identical to box height, or 111% */
+    }
+}
+
+
+/*HEADER ENDS */
+
+.logo {
+    background-image: url("../images/logo.svg");
+    width: 190px;
+    height: 44px;
+}
+
+@media (max-width: 425px) {
+    .logo {
+        width: 156px;
+        height: 36px;
+        background-size: 156px;
+    }
+}
