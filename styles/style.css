@@ -428,7 +428,6 @@
     .place {
         margin-bottom: 49px;
         grid-template-columns: auto;
-        grid-template-rows: repeat(4, auto);
         grid-row-gap: 32px;
     }
 }
@@ -520,4 +519,22 @@
 
 .place__paragraph:last-of-type {
     margin-bottom: 0;
+}
+
+/* PLACE ENDS */
+
+.cover {
+    text-align: center;
+    margin: 0 auto 92px;
+    width: calc(100% * (1184/1280));
+    min-height: calc(100vw * (740/1280));
+
+}
+
+.cover__overlay {}
+
+.cover__background {
+    background-image: url("../images/cover-route-66.jpg");
+    background-size: contain;
+
 }
