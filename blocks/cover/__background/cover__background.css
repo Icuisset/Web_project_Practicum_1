@@ -1,0 +1,12 @@
+.cover__background {
+    background-image: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url("../../../images/cover-route-66.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    background-position: center;
+    padding-bottom: 62.5%;
+    position: relative;
+}
+
+.cover__background:hover {
+    background-image: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url("../images/cover-route-66.jpg");
+}

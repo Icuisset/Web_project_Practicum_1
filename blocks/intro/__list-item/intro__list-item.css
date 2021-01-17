@@ -1,0 +1,11 @@
+.intro__list-item {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+}
+
+.intro__list-item_highlighted {
+    font-weight: 700;
+}

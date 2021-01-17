@@ -1,0 +1,21 @@
+.page-container {
+    width: calc(100% * (984/1280));
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .page-container {
+        width: calc(100% * (928/1024));
+    }
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+    .page-container {
+        width: calc(100% * (720/768));
+    }
+}
+
+@media (max-width: 425px) {
+    .page-container {
+        width: calc(100% * (288/320));
+    }
+}
