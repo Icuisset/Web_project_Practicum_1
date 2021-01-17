@@ -8,5 +8,5 @@
 }
 
 .cover__background:hover {
-    background-image: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url("../images/cover-route-66.jpg");
+    background-image: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url("../../../images/cover-route-66.jpg");
 }
