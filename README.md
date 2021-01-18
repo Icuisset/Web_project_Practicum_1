@@ -20,5 +20,5 @@ It uses following functionalities :
 
 **Link to Published project**
 
-* [Link to the project on Figma](https://practicum.yandex.com/trainer/web/lesson/bc2c40fa-5314-4971-a209-2c877af89e64)
+* [Link to the published project](https://icuisset.github.io/web_project_3)
 
