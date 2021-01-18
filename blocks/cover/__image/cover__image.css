@@ -1,0 +1,12 @@
+.cover__image {
+    width: 100%;
+    max-width: 1184 px;
+    height: calc(100vw * (62.5 * 1184)/ 128000);
+    max-height: 740px;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__image {
+        height: calc(100vw * (62.5 / 100));
+    }
+}
