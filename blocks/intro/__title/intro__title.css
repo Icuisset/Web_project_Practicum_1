@@ -9,7 +9,7 @@
     line-height: 58px;
 }
 
-@media (max-width: 768px) and (min-width: 426px) {
+@media screen and (max-width: 768px) {
     .intro__title {
         width: 100%;
         font-size: calc(32px + (54 - 32) * ((100vw - 425px) / 343));
@@ -17,9 +17,8 @@
     }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .intro__title {
-        width: 100%;
         font-size: 32px;
         line-height: 35px;
     }

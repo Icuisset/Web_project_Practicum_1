@@ -11,13 +11,13 @@
     text-transform: uppercase;
 }
 
-@media (max-width: 768px) and (min-width: 426px) {
+@media screen and (max-width: 768px) {
     .lead__caption {
         padding-left: 24px;
     }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .lead__caption {
         padding-left: 16px;
     }

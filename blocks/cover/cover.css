@@ -6,21 +6,22 @@
 .cover {
     margin: 0 auto 92px;
     width: calc(100% * (1184/1280));
+    max-width: 1184px;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .cover {
         width: 100%;
     }
 }
 
-@media (max-width: 768px) and (min-width: 426px) {
+@media screen and (max-width: 768px) {
     .cover {
         margin-bottom: 88px;
     }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .cover {
         margin-bottom: 64px;
     }

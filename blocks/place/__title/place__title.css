@@ -10,21 +10,21 @@
     align-items: flex-end;
 }
 
-@media (max-width: 1024px) and (min-width: 769px) {
+@media screen and (max-width: 1024px) {
     .place__title {
         font-size: calc(42px + (72 - 42) * ((100vw - 768px) / 256));
         line-height: calc(46px + (76 - 46) * ((100vw - 768px) / 256));
     }
 }
 
-@media (max-width: 768px) and (min-width: 426px) {
+@media screen and (max-width: 768px) {
     .place__title {
         font-size: calc(32px + (42 - 32) * ((100vw - 425px) / 343));
         line-height: calc(35px + (46 - 35) * ((100vw - 425px) / 343));
     }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .place__title {
         font-size: 32px;
         line-height: 35px;

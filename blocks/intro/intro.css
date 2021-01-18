@@ -11,27 +11,18 @@
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    /*width: calc(100% * (984/1280));*/
 }
 
-@media (max-width: 1024px) and (min-width: 769px) {
-    .intro {
-        /*width: calc(100% * (928/1024));*/
-    }
-}
-
-@media (max-width: 768px) and (min-width: 426px) {
+@media screen and (max-width: 768px) {
     .intro {
         margin-top: 88px;
         margin-bottom: 88px;
-        /*width: calc(100% * (720/768));*/
     }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .intro {
         margin-top: 64px;
         margin-bottom: 64px;
-        /*width: calc(100% * (288/320));*/
     }
 }

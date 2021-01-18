@@ -10,25 +10,18 @@
     margin-left: auto;
     margin-right: auto;
     width: calc(100% * (984/1280));
+    max-width: 984px;
 }
 
-@media (max-width: 1024px) and (min-width: 769px) {
+@media screen and (max-width: 1024px) {
     .lead {
         margin-top: 50px;
         width: calc(100% * (928/1024));
     }
 }
 
-@media (max-width: 768px) and (min-width: 426px) {
+@media screen and (max-width: 768px) {
     .lead {
-        margin-top: 50px;
-        width: 100%;
-    }
-}
-
-@media (max-width: 425px) {
-    .lead {
-        margin-top: 50px;
         width: 100%;
     }
 }

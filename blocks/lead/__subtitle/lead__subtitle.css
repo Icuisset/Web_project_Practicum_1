@@ -12,22 +12,21 @@
 
 }
 
-@media (max-width: 1024px) and (min-width: 769px) {
+@media screen and (max-width: 1024px) {
     .lead__subtitle {
         margin-bottom: 56px;
     }
 }
 
-@media (max-width: 768px) and (min-width: 426px) {
+@media screen and (max-width: 768px) {
     .lead__subtitle {
-        margin-bottom: 56px;
         width: calc(100% * (620 / 768));
         font-size: calc(16px + (30 - 16) * ((100vw - 425px) / 343));
         line-height: calc(20px + (36 - 20) * ((100vw - 425px) / 343));
     }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .lead__subtitle {
         margin-bottom: 40px;
         width: 288px;

@@ -2,9 +2,9 @@
     width: calc(100% * (460 / 484));
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .place__image {
         width: calc(100% * (320/288));
-        margin-left: calc(100% * (-16 /320));
+        margin-left: calc(100vw * (-16 /288));
     }
 }
