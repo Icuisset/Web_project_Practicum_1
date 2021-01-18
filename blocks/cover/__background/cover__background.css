@@ -3,10 +3,33 @@
     background-repeat: no-repeat;
     background-size: 100% 100%, cover;
     background-position: center;
-    padding-bottom: 62.5%;
-    position: relative;
+    padding-bottom: calc((62.5% - 174px)/2);
+    padding-top: calc((62.5% - 174px)/2);
+    /*position: relative;*/
+    /* trial */
 }
 
 .cover__background:hover {
     background-image: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url("../../../images/cover-route-66.jpg");
+}
+
+@media screen and (max-width: 750px) {
+    .cover__background {
+        padding-bottom: calc((62.5% - 144px)/2);
+        padding-top: calc((62.5% - 144px)/2);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cover__background {
+        padding-bottom: calc((62.5% - 130px)/2);
+        padding-top: calc((62.5% - 130px)/2);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__background {
+        padding-bottom: calc((62.5% - 99px)/2);
+        padding-top: calc((62.5% - 99px)/2);
+    }
 }

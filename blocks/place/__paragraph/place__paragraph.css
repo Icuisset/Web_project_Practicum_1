@@ -4,13 +4,22 @@
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 163%;
+    line-height: 29px;
 }
 
 @media screen and (max-width: 768px) {
     .place__paragraph {
         font-size: 16px;
+        line-height: 26px;
         margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .place__paragraph {
+        width: calc(100% * (288 / 320));
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 

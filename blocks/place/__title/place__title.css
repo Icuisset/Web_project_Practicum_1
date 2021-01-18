@@ -24,9 +24,12 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
     .place__title {
         font-size: 32px;
         line-height: 35px;
+        width: calc(100% * (288 / 320));
+        margin-left: auto;
+        margin-right: auto;
     }
 }

@@ -9,9 +9,10 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
     .places {
         margin-top: 64px;
         margin-bottom: 65px;
+        width: 100%;
     }
 }
