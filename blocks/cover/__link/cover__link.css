@@ -9,13 +9,13 @@
     text-align: center;
     width: 100%;
     max-width: 1184px;
-    min-height: calc(100vw * (62.5 * 1184)/ 128000);
+    height: calc(100vw * (62.5 * 1184)/ 128000);
     max-height: 740px;
 }
 
 @media screen and (max-width: 1024px) {
     .cover__link {
-        min-height: calc(100vw * (62.5 / 100));
+        height: calc(100vw * (62.5 / 100));
     }
 }
 
