@@ -7,18 +7,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 100%;
-    max-width: 1184px;
-    /* I CORRECTED AGAIN FROM MIN-HEIGHT TO HEIGHT after last submit because it was creating an error on larger screens*/
-    height: calc(100vw * (62.5 * 1184)/ 128000);
-    max-height: 740px;
-}
-
-@media screen and (max-width: 1024px) {
-    .cover__link {
-        /* I CORRECTED AGAIN FROM MIN-HEIGHT TO HEIGHT after last submit because it was creating an error on larger screens*/
-        height: calc(100vw * (62.5 / 100));
-    }
 }
 
 .cover__link::before {
