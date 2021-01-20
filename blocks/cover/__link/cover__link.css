@@ -7,7 +7,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    position: relative;
     width: 100%;
     max-width: 1184px;
     min-height: calc(100vw * (62.5 * 1184)/ 128000);
