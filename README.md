@@ -1,4 +1,4 @@
-# Project 3: From Portland to Portland
+# Project: From Portland to Portland
 
 ### Overview
 * Intro
@@ -8,7 +8,7 @@
 
 **Intro**
 
-This is a project about traveling across the US.
+This is a project about traveling across the US. Using HTML, CSS and Javascript.
 
 
 **Functionalities**
